@@ -1,17 +1,16 @@
 public class Circulo extends Figura {
-    public Circulo(int r) {
+    public double r;
+    public Circulo(double r) {
         this.r = r;
     }
 
-    public int getR() {
+    public double getR() {
         return r;
     }
 
-    public void setR(int r) {
+    public void setR(double r) {
         this.r = r;
     }
-
-    public int r;
 
     public Circulo(){
         super();

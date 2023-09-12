@@ -1,25 +1,24 @@
 public class Triangulo extends Figura{
-    public int b;
-    public int h;
-
-    public Triangulo(int b, int h) {
+    public double b;
+    public double h;
+    public Triangulo(double b, double h) {
         this.b = b;
         this.h = h;
     }
 
-    public int getB() {
+    public double getB() {
         return b;
     }
 
-    public void setB(int b) {
+    public void setB(double b) {
         this.b = b;
     }
 
-    public int getH() {
+    public double getH() {
         return h;
     }
 
-    public void setH(int h) {
+    public void setH(double h) {
         this.h = h;
     }
 

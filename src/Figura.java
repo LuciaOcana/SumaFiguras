@@ -1,13 +1,7 @@
 //Funcion que
 public abstract class Figura {
-    public double getArea() {
-        return area;
-    }
 
-    public void setArea(double area) {
-        this.area = area;
-    }
-
+    public abstract double area(); //Metode polimorfic indicas que totes les subclases han de implementar
     // void area;
-    public double area;
+
 }

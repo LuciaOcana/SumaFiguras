@@ -22,8 +22,9 @@ public class Triangulo extends Figura{
         this.h = h;
     }
 
-    public Triangulo(){
-        super();
-        area = (b*h)/2;
+
+    @Override
+    public double area() {
+        return (b*h)/2;
     }
 }

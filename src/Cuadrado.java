@@ -2,8 +2,8 @@
 public class Cuadrado extends Rectangulo{
 
     public Cuadrado(double l1){
-        super(l1);
-        area = l1*l1;
+        super(l1,l1);
     }
+
 
 }

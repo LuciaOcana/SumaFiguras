@@ -12,8 +12,9 @@ public class Circulo extends Figura {
         this.r = r;
     }
 
-    public Circulo(){
-        super();
-        area = 2*Math.PI*r;
+
+    @Override
+    public double area() {
+        return Math.PI*r*r;
     }
 }

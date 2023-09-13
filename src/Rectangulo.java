@@ -23,11 +23,8 @@ public class Rectangulo extends Figura{
         this.l2 = l2;
     }
 
-
-    public Rectangulo(){
-        super(); //indica que debe usar la clase figura Rectangulo
-        area = l1*l2;
+    @Override
+    public double area() {
+        return l1* l2;
     }
-
-
 }

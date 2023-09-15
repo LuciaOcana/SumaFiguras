@@ -11,8 +11,7 @@ public class Triangulo extends Figura{
     }
 
     public void setB(double b) {
-        this.b = b;
-    }
+        this.b = b;}
 
     public double getH() {
         return h;
@@ -21,7 +20,6 @@ public class Triangulo extends Figura{
     public void setH(double h) {
         this.h = h;
     }
-
 
     @Override
     public double area() {

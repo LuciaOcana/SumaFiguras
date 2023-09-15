@@ -23,6 +23,8 @@ public class Rectangulo extends Figura{
         this.l2 = l2;
     }
 
+
+    //metodo polimorfico
     @Override
     public double area() {
         return l1* l2;
